@@ -5,6 +5,7 @@ import { MultiplesCustomHoks } from './components/examples/MultiplesCustomHoks';
 import { FocusScreen } from './components/useRef/FocusScreen';
 import { RealExampleRef } from './components/useRef/RealExampleRef';
 import { TodoApp } from './components/useReducer/TodoApp';
+import { MainApp } from './components/useContext/MainApp';
 
 export const HookApp = () => {
   return (
@@ -16,7 +17,7 @@ export const HookApp = () => {
       <hr />
       <FormWithCustomHooks />
       <hr /> */}
-      <TodoApp />
+      <MainApp />
     </>
   );
 };
